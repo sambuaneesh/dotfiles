@@ -9,6 +9,7 @@ vim.opt.cursorline = true
 vim.opt.mouse = 'a'
 vim.opt.swapfile = false
 vim.opt.termguicolors = true
+vim.o.clipboard = "unnamedplus"
 
 -- remappings
 vim.opt.timeoutlen = 100

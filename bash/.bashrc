@@ -1,0 +1,1 @@
+/home/stealthspectre/dotfiles/bash/.bashrc

@@ -1,0 +1,5 @@
+pane	0	0	1	:*	0	stealthspectre@SSPBI:~/Shyshtum/leet	:/home/stealthspectre/Shyshtum/leet	1	nvim	:nvim main.cpp
+pane	0	0	1	:*	1	stealthspectre@SSPBI:~/Shyshtum/leet	:/home/stealthspectre/Shyshtum/leet	0	nvim	:nvim rough
+pane	0	0	1	:*	2	stealthspectre@SSPBI:~/Shyshtum/leet	:/home/stealthspectre/Shyshtum/leet	0	bash	:
+window	0	0	:nvim	1	:*	1d5c,192x46,0,0[192x30,0,0{106x30,0,0,1,85x30,107,0,4},192x15,0,31,2]	:
+state	0	

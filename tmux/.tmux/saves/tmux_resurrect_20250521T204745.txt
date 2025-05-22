@@ -1,4 +1,0 @@
-pane	0	0	1	:*	0	stealthspectre@SSPBI:~/Shyshtum/leet	:/home/stealthspectre/Shyshtum/leet	1	nvim	:nvim main.cpp
-pane	0	0	1	:*	1	stealthspectre@SSPBI:~/.local/share/tmux/resurrect	:/home/stealthspectre/.local/share/tmux/resurrect	0	bash	:
-window	0	0	:nvim	1	:*	80e1,192x46,0,0[192x30,0,0,0,192x15,0,31,1]	:
-state	0	

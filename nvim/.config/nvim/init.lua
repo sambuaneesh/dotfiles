@@ -1,3 +1,15 @@
+-- custom functions
+function ToggleLineNumbers()
+  local is_relative = vim.wo.relativenumber
+  if is_relative then
+    vim.wo.relativenumber = false
+    vim.wo.number = true
+  else
+    vim.wo.relativenumber = true
+    vim.wo.number = true
+  end
+end
+
 -- my recomm defaults
 vim.opt.number = true
 vim.opt.relativenumber = true
@@ -20,6 +32,8 @@ vim.api.nvim_set_keymap('v', 'jk', '<Esc>', { noremap=true, silent=true })
 vim.api.nvim_set_keymap('n', '<C-s>', ':w<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('i', '<C-s>', '<Esc>:w<CR>a', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('v', '<C-s>', '<Esc>:w<CR>a', { noremap = true, silent = true })
+
+vim.keymap.set("n", "<leader>n", ToggleLineNumbers, { desc = "Toggle line numbers" })
 
 vim.keymap.set('n', '<C-x>', ':q<CR>', { noremap = true, silent = true })
 
@@ -45,3 +59,5 @@ require("lazy").setup({
 vim.cmd.colorscheme("catppuccin-mocha")
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
+
+

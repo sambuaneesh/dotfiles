@@ -1,0 +1,9 @@
+pane	code	0	1	:*	0	SSPBI	:/home/stealthspectre/Shyshtum/cses	0	nvim	:nvim main.cpp
+pane	code	0	1	:*	1	SSPBI	:/home/stealthspectre/dotfiles	0	bash	:
+pane	code	0	1	:*	2	SSPBI	:/home/stealthspectre/dotfiles	1	bash	:
+pane	code	1	0	:-	0	SSPBI	:/home/stealthspectre/Shyshtum/leet	1	nvim	:nvim main.cpp
+pane	code	1	0	:-	1	SSPBI	:/home/stealthspectre/Shyshtum/leet	0	nvim	:nvim rough
+pane	code	1	0	:-	2	SSPBI	:/home/stealthspectre/Shyshtum/leet	0	bash	:
+window	code	0	:cses	1	:*	fd0b,192x46,0,0[192x29,0,0{105x29,0,0,1,86x29,106,0,2},192x16,0,30,3]	off
+window	code	1	:nvim	0	:-	7d1c,192x46,0,0[192x29,0,0{105x29,0,0,4,86x29,106,0,5},192x16,0,30,6]	:
+state	code	
